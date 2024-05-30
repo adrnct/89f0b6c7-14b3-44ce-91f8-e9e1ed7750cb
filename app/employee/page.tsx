@@ -1,9 +1,12 @@
 import EmployeeTable from '@/components/employee-table'
+import React from 'react'
 
-export default function Home() {
+const Employee = () => {
     return (
-        <div className='px-28'>
+        <div className='px-48'>
             <EmployeeTable />
         </div>
     )
 }
+
+export default Employee
